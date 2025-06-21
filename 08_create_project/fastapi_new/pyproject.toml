@@ -1,0 +1,19 @@
+[project]
+name = "fastapi-new"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "muazam mughal",email = "104276759+MuazamMughal@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "fastapi_new", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
